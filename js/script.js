@@ -8,6 +8,7 @@ function getRandomColor() {
     color += letters[Math.floor(Math.random() * 16)];
   }
   //console.log(color, changeNumid());
+  document.getElementById(`backg-${changeNumid()}`).innerHTML = color;
   return color;
 }
 
